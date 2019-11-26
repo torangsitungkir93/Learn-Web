@@ -1,0 +1,101 @@
+/* Style untuk pengaturan form */
+.container {
+    padding: 50px;
+}
+
+.btn-daftar {
+    margin-left: 45%;
+}
+
+.btn-kembali {
+    margin-left: 45%;
+}
+
+.btn-edit {
+    margin-left: 45%;
+}
+
+.font-label {
+    color: black;
+}
+
+/* Untuk table */
+.warna-table {
+    background: lightsteelblue;
+}
+
+.btn-merah {
+    background: #EE2D20;
+}
+
+.btn-merah:hover {
+    background: rgb(221, 38, 25);
+}
+
+.btn-reset {
+    justify-items: flex-end;
+}
+
+.btn-hijau {
+    background: #049F0C;
+}
+
+.btn-hijau:hover {
+    background: green;
+}
+
+.btn-putih {
+    color: white;
+}
+
+.btn-putih:hover {
+    color: lightsteelblue;
+}
+
+.judul {
+    text-align: center;
+}
+
+/* css untuk menu search */
+.searchbar {
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 60px;
+    background-color: #353b48;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.search_input {
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color: transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+}
+
+.searchbar:hover>.search_input {
+    padding: 0 10px;
+    width: 450px;
+    caret-color: red;
+    transition: width 0.4s linear;
+}
+
+.searchbar:hover>.search_icon {
+    background: white;
+    color: #e74c3c;
+}
+
+.search_icon {
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+}

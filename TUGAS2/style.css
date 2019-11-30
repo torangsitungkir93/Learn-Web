@@ -1,0 +1,65 @@
+.card>.card-header {
+    background: transparent;
+    border-bottom: 1px solid #eee;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.icon-user {
+    float: right;
+    top: 10px;
+    right: 10px;
+}
+
+.mt-12 {
+    margin-top: 180px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    /* tinggi dari footer */
+}
+
+/* ------------------------------------------------------------ */
+/* Untuk tampilan PHP */
+
+.header {
+    height: 150px;
+}
+
+.my-content {
+    width: 500px;
+    max-height: 500px;
+    margin: auto;
+    border: 0.5px solid steelblue;
+    text-align: center;
+    background: whitesmoke;
+}
+
+.my-bg {
+    background-image: url('img/farm-upn.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: initial;
+}
+
+.text {
+    position: relative;
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: #244D49;
+    text-shadow: 3px 3px 0px #D7DACC, 8px 8px 0px rgba(0, 0, 0, 0.1);
+}
+
+button.kembali:hover {
+    background: hotpink;
+}
+
+.kt-1 {
+    margin-top: 30px;
+}
